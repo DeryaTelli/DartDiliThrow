@@ -1,16 +1,15 @@
-# flutter_ornek8
+# Throw  
+( Kendi oluşturduğumuz hata ayıklama diyebiliriz throw'a ) 
 
-A new Flutter project.
+* Kendimizin "bir sorun var !" diyerek hata yaratmamiz.  
 
-## Getting Started
+## Ornegin; 
+```dart
+if(olmamasi gereken bir durum mu oldu ?){ 
 
-This project is a starting point for a Flutter application.
+throw Exception('böyle olmamalıydı');
 
-A few resources to get you started if this is your first Flutter project:
+// Burada her şeyi verebiliyoruz ama " exception , error gibi classlardan olmuş classlari, nesneleri yaratmak. 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+} 
+```
